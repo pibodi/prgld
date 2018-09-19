@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    
+
 ]
 
 ROOT_URLCONF = 'progolodalis.urls'
@@ -80,8 +80,8 @@ WSGI_APPLICATION = 'progolodalis.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'mysite',
-        'USER': 'T',
+        'NAME': 'Pibodi$mysite',
+        'USER': 'Pibodi',
         'PASSWORD': 'topsecret'
     }
 }
