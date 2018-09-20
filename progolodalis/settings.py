@@ -25,7 +25,7 @@ SECRET_KEY = '&l6_!2ky_cv5+bh6u$do*5raq!u3@c)oef76npd0t+d@7^+7bj'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'Pibodi.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
 
 
 # Application definition
@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'prgld',
-    'taggit',
+    'taggit'
 ]
 
 MIDDLEWARE = [
@@ -79,9 +79,9 @@ WSGI_APPLICATION = 'progolodalis.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'mysite',
+        'NAME': 'prgld',
         'USER': 'T',
-        'PASSWORD': 'topsecret'
+        'PASSWORD': '43moskva34'
     }
 }
 
